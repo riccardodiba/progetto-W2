@@ -8,4 +8,19 @@ public class Riviste extends Catalogo {
         super(isbn, titolo, annoPubblicazione, numeroPagine);
         this.periodicita = periodicita;
     }
+    @Override
+    public String toString(){
+        return "Riviste{" +
+                "periodicita" + periodicita +
+                '}';
+    }
+
+    public Periodicita getPeriodicita() {
+        return periodicita;
+    }
+
+    public void setPeriodicita(Periodicita periodicita) {
+        this.periodicita = periodicita;
+    }
 }
+

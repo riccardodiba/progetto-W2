@@ -10,4 +10,19 @@ public class Libro extends Catalogo{
         this.autore = autore;
         this.genere = genere;
     }
+    @Override
+    public String toString() {
+        return "Libro{" +
+                "autore='" + autore + '\'' +
+                ", genere='" + genere + '\'' +
+                '}';
+    }
+
+    public String getAutore() {
+        return autore;
+    }
+
+    public String getGenere() {
+        return genere;
+    }
 }

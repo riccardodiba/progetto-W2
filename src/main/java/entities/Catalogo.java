@@ -12,4 +12,26 @@ public class Catalogo {
         this.annoPubblicazione = annoPubblicazione;
         this.numeroPagine = numeroPagine;
     }
+
+    @Override
+    public String toString(){
+        return
+                "isbn='" + isbn + '\'' +
+                        ", titolo='" + titolo + '\'' +
+                        ", annoPubblicazione=" + annoPubblicazione +
+                        ", numberoPagine=" + numeroPagine;
+    }
+    public String getIsbn(){
+        return isbn;
+    }
+    public String getTitolo(){
+        return titolo;
+    }
+    public int getAnnoPubblicazione(){
+        return annoPubblicazione;
+    }
+    public int getNumeroPagine(){
+        return numeroPagine;
+    }
+
 }
