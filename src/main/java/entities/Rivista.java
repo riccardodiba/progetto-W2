@@ -1,16 +1,16 @@
 package entities;
 
-public class Riviste extends Catalogo {
+public class Rivista extends Catalogo {
 
     private Periodicita periodicita;
 
-    public Riviste(String isbn, String titolo, int annoPubblicazione, int numeroPagine, Periodicita periodicita) {
+    public Rivista(String isbn, String titolo, int annoPubblicazione, int numeroPagine, Periodicita periodicita) {
         super(isbn, titolo, annoPubblicazione, numeroPagine);
         this.periodicita = periodicita;
     }
     @Override
     public String toString(){
-        return "Riviste{" +
+        return "Rivista{" +
                 "periodicita" + periodicita +
                 '}';
     }
